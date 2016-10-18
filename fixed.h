@@ -8,8 +8,11 @@
 
 typedef short fixed;
 
+// functions to convert between float and binary-scale fixed point
 float binary_fixed_to_float(fixed num);
 fixed float_to_binary_fixed(float num);
+
+// functions to convert between float and decimal-scale fixed point
 float decimal_fixed_to_float(fixed num);
 fixed float_to_decimal_fixed(float num);
 
